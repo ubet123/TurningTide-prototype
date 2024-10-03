@@ -1,0 +1,789 @@
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fredoka', sans-serif;  /* Applying Fredoka font to the entire website */
+  background-color: #f0f8ff;  /* Light water-themed background */
+}
+.hero-section {
+  background-image: url('matt-hardy-6ArTTluciuA-unsplash.jpg'); /* Replace with your ocean image path */
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  height: 400px; /* Height of the hero section */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  color: white; /* Text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add shadow for better visibility */
+  border-radius: 10px;
+  border-color: #0a9396;
+}
+*{
+  text-decoration: none;
+}
+
+.project-title {
+  font-size: 58px; /* Large font size for the title */
+  font-weight: 700; /* Bold font weight */
+  text-align: center; /* Center text */
+  color:white;
+}
+
+
+h1, h2, h3 {
+  color: #005f73;  /* Deep water blue */
+}
+
+p, li, label {
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #005f73;
+  color: white;
+  padding: 15px 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+}
+
+.navbar .nav-left {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.navbar .nav-center a:hover,
+.navbar .login-icon:hover {
+  background-color: #0a9396;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+/* Sidebar Styles */
+.dashboard-sidebar {
+  width: 220px;
+  background: linear-gradient(180deg, #005f73, #0a9396);
+  position: absolute;
+  height: auto;
+  padding-top: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.dashboard-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #e9d8a6; /* Stylish contrasting text color */
+}
+
+.sidebar-item {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px 0;
+  width: 80%;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-item h3 {
+  margin: 10px 0;
+}
+
+.sidebar-item:hover {
+  background-color: #e9d8a6; /* Light background on hover */
+  transform: translateY(-5px); /* Lift effect on hover */
+  color: #005f73;
+}
+.sidebarhead{
+  color:white;
+}
+/* Main Content Area */
+.main-content {
+  margin-left: 240px; /* Adjust margin to fit the sidebar */
+  padding: 20px;
+}
+
+.projecttitle1{
+  font-size: 80px;
+  font-weight: 600;
+}
+.main-content h1 {
+  color: #005f73;
+}
+
+.main-content p {
+  color: #333;
+}
+/* Main Content */
+.main-content {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+/* Home Page Specific Styles */
+#problem, #objectives, #sdg-goals {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #cae9ff;
+  border-radius: 8px;
+}
+.problemsec{
+  display: flex; /* Use flexbox to align items horizontally */
+    align-items: center;
+    gap:10px;
+}
+.problemsec img{
+  height:12rem;
+  width:15rem;
+  border-radius: 5px;
+  border-color: #005f73;
+  border-width: 2px;
+  border-style: solid;
+}
+.problempara {
+  width: 70%; /* Adjust width as needed */
+  margin-right: 20px; /* Space between text and image */
+}
+.problemimg {
+  width: 30%; /* Adjust width as needed */
+  height: 10rem; /* Keep the aspect ratio */
+  border-radius: 5px; /* Optional: Add border radius for image */
+  position: relative;
+  bottom:3rem;
+  
+}
+
+#objectives span{
+  font-weight: 800;
+}
+
+.sdgimg{
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(4,4fr);
+  column-gap: 10px;
+  align-content: center;
+}
+
+.sdgimg img{
+  width:180px;
+  height:185px;
+  border-radius: 8px;
+  border-color: #0a9396;
+  border-width: 3px;
+  border-style: solid;
+}
+/* Footer */
+.footer {
+  background-color: #005f73;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  
+  width: 100%;
+  bottom: 0;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #94d2bd;
+}
+
+.footer a:hover {
+  color: #e9d8a6;
+}
+
+/* Blog Page Styles */
+
+.blogspage{
+  
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka', sans-serif;  /* Your existing font */
+    background-image: url('Reasons_Why_Beach_Clean-Ups_Important_1200x1200.webp'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent tiling */
+    color: #333; /* Default text color */
+
+   
+
+}
+.blogs-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.blogs-container span{
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.blog-entry {
+  width: 45%;
+  background-color: #e9d8a6;
+  margin: 15px;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-img {
+  width: 40px; /* Set a fixed width for the profile picture */
+  height: 40px; /* Set a fixed height for the profile picture */
+  border-radius: 50%; /* Makes the image round */
+  object-fit: cover; /* Ensures the image covers the entire area */
+  margin: 10px 0; /* Space around the image */
+}
+
+
+/* Map Page Styles */
+.map-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.map-img {
+  width: 80%;
+  height: auto;
+  border: 5px solid #005f73;
+  border-radius: 8px;
+}
+
+/* Eco Shop Page Styles */
+/* Eco Shop Page Styles */
+.product-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Display 3 cards in one row */
+  column-gap: 1rem; /* Space between columns */
+  row-gap: 1rem; /* Space between rows (optional) */
+  max-width: 1200px; /* Set a max width for the grid */
+  margin: 0 auto; /* Center the grid container */
+  padding: 0 1rem; /* Add some padding to the sides for smaller screens */
+}
+
+.card {
+  margin: 0; /* Remove margin from cards to control spacing */
+  padding: 20px;
+  background-color: #f4a261;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
+}
+.card:hover{
+  box-shadow: 2px 2px 2px 3px  #005f73;
+}
+
+.card-img {
+  width: 70%; /* Adjusted to fill the card width */
+  height: 200px;
+  border-radius: 9px;
+  border: 2px solid rgba(0, 255, 255, 0.856);
+}
+
+#price {
+  font-weight: 800;
+}
+
+
+#price del {
+  text-decoration: line-through; 
+  color: red; 
+  margin-right: 5px; 
+}
+
+
+.buy-btn {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.buy-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+
+/* Login Page Styles */
+.login-page {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fredoka', sans-serif;
+  background-image: url('pexels-anntarazevich-8152030.jpg'); /* Replace with your background image path */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background */
+  background-repeat: no-repeat; /* Prevent tiling */
+  height: 100%; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center the login container */
+ 
+}
+
+/* Container with Blur Effect */
+.login-blur-container {
+  width: 350px; /* Width of the form container */
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.1); /* Transparent background */
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Soft shadow for depth */
+  backdrop-filter: blur(10px); /* Apply the blur effect */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Optional border for better visibility */
+  color: white; /* Text color */
+  text-align: center; /* Centered text */
+  margin-top: 2rem;
+  margin-bottom: 0px;
+ 
+}
+
+/* Login Form Styles */
+.login-form label {
+  display: block;
+  margin: 10px 0 5px 0;
+}
+
+.login-form input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.3); /* Semi-transparent input background */
+  color: white; /* White text color */
+}
+
+.login-form input::placeholder {
+  color: rgba(255, 255, 255, 0.7); /* Lighter placeholder color */
+}
+
+.submit-btn {
+  background-color: #005f73;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #0a9396;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 480px) {
+  .login-blur-container {
+      width: 90%; /* Adjust width for smaller screens */
+      padding: 20px; /* Reduce padding */
+  }
+}
+/* Leaderboard Styles */
+.leaderboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.leaderboard-table {
+  width: 60%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.leaderboard-table th, .leaderboard-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.leaderboard-table th {
+  background-color: #005f73;
+  color: white;
+}
+
+/* Cleanup Drive Section Styles */
+.cleanup-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.cleanup-table th, .cleanup-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+.cleanup-table th {
+  background-color: #005f73;
+  color: white;
+}
+
+.participate-btn {
+  padding: 10px;
+  background-color: #0a9396;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.participate-btn:hover {
+  background-color: #cae9ff;
+}
+
+/* General Styles for Your Contribution Page */
+.contribution-main-content {
+  margin-left: 220px; /* Margin for the main content */
+  padding: 20px;
+}
+
+/* Hero Section */
+.contribution-hero-section {
+  background-image: url('cleanup2.webp'); /* Replace with your image path */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent tiling */
+  color: white; /* Text color */
+  height: 400px; /* Height of the hero section */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Shadow for better visibility */
+}
+
+/* Section Headers */
+.contribution-title, h2 {
+  color: #005f73; /* Deep water blue */
+}
+
+/* Contribution Lists */
+.cleanup-drives-list, .donations-list {
+  list-style: none;
+  padding: 0;
+}
+
+.cleanup-drives-list li, .donations-list li {
+  background-color: #cae9ff; /* Light background for list items */
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+.donations-list span{
+  font-size: 30px;
+  color: green;
+  font-weight: 600;
+
+}
+
+.contribution-hero-section{
+  background-image: url('cleanup2.webp'); /* Replace with your image path */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent tiling */
+  padding: 20px; /* Add some padding */
+  border-radius: 10px; /* Optional: Round corners */
+  
+}
+
+.contribution-title{
+  color:rgba(19, 6, 143, 0.897);
+  font-size: 5rem;
+}
+/* Image Gallery */
+.contribution-image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Space between images */
+}
+
+.contribution-img {
+  width: 150px; /* Width of each image */
+  height: 100px; /* Height of each image */
+  border-radius: 5px; /* Rounded corners */
+  object-fit: cover; /* Ensures the image covers the area */
+}
+
+/* Footer */
+.footer {
+  background-color: #005f73;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #94d2bd;
+}
+
+.footer a:hover {
+  color: #e9d8a6;
+}
+
+/* Leaderboard Section Styles */
+#leaderboard-section {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #1c1c1c; /* Dark background for game-like feel */
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+h2 {
+  color: #f4a261; /* Bright header color */
+  text-align: center; /* Centered title */
+  font-size: 2em; /* Larger font size */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+.leaderboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content */
+}
+
+.leaderboard-table {
+  width: 80%; /* Table width */
+  border-collapse: collapse; /* Collapse borders */
+  margin: 20px 0; /* Margin above and below the table */
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.leaderboard-table th, .leaderboard-table td {
+  border: 1px solid #005f73; /* Table border color */
+  padding: 12px; /* Padding inside table cells */
+  text-align: center; /* Center text */
+  transition: background-color 0.3s ease; /* Animation for background color */
+  color: #f4f4f4; /* Light text color */
+}
+
+.leaderboard-table th {
+  background-color: #005f73; /* Header background color */
+  color: #ffffff; /* Header text color */
+}
+
+.leaderboard-table tbody tr {
+  transition: background-color 0.3s ease; /* Animation for row hover */
+}
+
+.leaderboard-table tbody tr:hover {
+  background-color: rgba(10, 147, 150, 0.3); /* Light background on row hover */
+}
+
+.leaderboard-table tbody tr:nth-child(odd) {
+  background-color: rgba(255, 255, 255, 0.05); /* Slightly different color for odd rows */
+}
+
+.current-user {
+  background-color: #f4a261; /* Background color for current user */
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center; /* Center text */
+  margin-top: 20px; /* Space above the current user box */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow for the current user box */
+}
+
+.current-user p {
+  margin: 5px 0; /* Margin for current user info */
+  font-weight: bold; /* Make text bold */
+  font-size: 1.2em; /* Slightly larger font size */
+}
+
+/* Points Section Styles */
+.points-section {
+  text-align: center;
+  padding: 20px;
+  background-color: #005f73; /* Deep water blue */
+  color: white;
+  border-radius: 8px;
+  margin: 20px auto;
+  width: 80%; /* Responsive width */
+}
+
+.prize-icon {
+  width: 40%; /* Size of the icon */
+  height: 40%;
+}
+.points-earned{
+  color:white;
+}
+
+/* Prizes Container Styles */
+.prizes-container {
+  display: grid;
+  grid-template-columns: repeat(3,1fr); /* Responsive grid layout */
+  gap: 50px; /* Space between cards */
+  row-gap: 90px;
+  padding: 20px;
+}
+
+/* Prize Card Styles */
+.prize-card {
+  background-color: #e9d8a6; /* Light background for cards */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  padding: 7px;
+  text-align: center;
+  height:30rem;
+  transition: transform 0.3s ease; /* Animation for hover effect */
+}
+
+.prize-card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.prize-image {
+  width: 40%; /* Full width of the card */
+  height: 50%; /* Maintain aspect ratio */
+  border-radius: 5px; /* Rounded corners for images */
+}
+
+/* Button Styles */
+.apply-button {
+  background-color: black; /* Button background color */
+  width:6rem;
+  height:2.5rem;
+  color: white;
+  padding: 7px 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px; /* Space above button */
+  transition: background-color 0.3s ease; /* Animation for hover effect */
+}
+.pointsreq{
+  font-size: 20px;
+  font-weight: 700;
+}
+.apply-button:hover {
+  background-color: white;
+  color:black; /* Darker shade on hover */
+}
+
+/* Table Section Styles */
+.table-section {
+  text-align: center;
+  margin: 40px auto;
+  padding: 20px;
+  width: 80%; /* Width of the table container */
+  background-color: #f0f8ff; /* Light water-themed background */
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.table-title {
+  font-size: 2em;
+  color: #005f73; /* Deep water blue */
+  margin-bottom: 20px; /* Space below the title */
+  font-weight: bold;
+}
+
+/* Cleanup Drives Table Styles */
+.cleanup-drives-table {
+  width: 100%;
+  border-collapse: collapse; /* Collapsed borders */
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow to the table */
+}
+
+.cleanup-drives-table th, .cleanup-drives-table td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd; /* Border for table cells */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.cleanup-drives-table th {
+  background-color: #005f73; /* Deep blue header background */
+  color: #ffffff; /* White text color */
+  text-transform: uppercase;
+  letter-spacing: 1px; /* Spacing between letters */
+  font-weight: 600; /* Bold font for headers */
+}
+
+.cleanup-drives-table tbody tr:nth-child(odd) {
+  background-color: #cae9ff; /* Light blue background for odd rows */
+}
+
+.cleanup-drives-table tbody tr:nth-child(even) {
+  background-color: #94d2bd; /* Light green background for even rows */
+}
+
+.cleanup-drives-table tbody tr:hover {
+  background-color: rgba(10, 147, 150, 0.2); /* Change background on row hover */
+}
+
+.cleanup-drives-table td {
+  color: #333; /* Text color for cells */
+  font-size: 1em;
+}
+
+/* Register Button Styles */
+.register-btn {
+  padding: 10px 15px;
+  background-color: #005f73; /* Button background color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+}
+
+.register-btn:hover {
+  background-color: #0a9396; /* Lighter shade on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+.register-btn:active {
+  background-color: #00363a; /* Darker shade when clicked */
+  transform: translateY(0); /* No lift on click */
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #005f73;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #94d2bd;
+}
+
+.footer a:hover {
+  color: #e9d8a6;
+}
