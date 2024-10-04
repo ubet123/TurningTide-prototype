@@ -1,20 +1,20 @@
-/* General Styles */
+
 body, html {
   margin: 0;
   padding: 0;
-  font-family: 'Fredoka', sans-serif;  /* Applying Fredoka font to the entire website */
-  background-color: #f0f8ff;  /* Light water-themed background */
+  font-family: 'Fredoka', sans-serif;  
+  background-color: #f0f8ff;  
 }
 .hero-section {
-  background-image: url('matt-hardy-6ArTTluciuA-unsplash.jpg'); /* Replace with your ocean image path */
-  background-size: cover; /* Cover the entire div */
-  background-position: center; /* Center the image */
-  height: 400px; /* Height of the hero section */
-  display: flex; /* Use flexbox for centering */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  background-image: url('matt-hardy-6ArTTluciuA-unsplash.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  height: 400px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
   color: white; /* Text color */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add shadow for better visibility */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   border-radius: 10px;
   border-color: #0a9396;
 }
@@ -23,15 +23,15 @@ body, html {
 }
 
 .project-title {
-  font-size: 58px; /* Large font size for the title */
-  font-weight: 700; /* Bold font weight */
-  text-align: center; /* Center text */
+  font-size: 58px; 
+  font-weight: 700; 
+  text-align: center;
   color:white;
 }
 
 
 h1, h2, h3 {
-  color: #005f73;  /* Deep water blue */
+  color: #005f73;  
 }
 
 p, li, label {
@@ -91,7 +91,7 @@ ul {
   font-size: 24px;
   font-weight: bold;
   text-align: center;
-  color: #e9d8a6; /* Stylish contrasting text color */
+  color: #e9d8a6; 
 }
 
 .sidebar-item {
@@ -111,8 +111,8 @@ ul {
 }
 
 .sidebar-item:hover {
-  background-color: #e9d8a6; /* Light background on hover */
-  transform: translateY(-5px); /* Lift effect on hover */
+  background-color: #e9d8a6; 
+  transform: translateY(-5px); 
   color: #005f73;
 }
 .sidebarhead{
@@ -120,7 +120,7 @@ ul {
 }
 /* Main Content Area */
 .main-content {
-  margin-left: 240px; /* Adjust margin to fit the sidebar */
+  margin-left: 240px; 
   padding: 20px;
 }
 
@@ -141,7 +141,7 @@ ul {
   padding: 20px;
 }
 
-/* Home Page Specific Styles */
+
 #problem, #objectives, #sdg-goals {
   margin: 20px 0;
   padding: 15px;
@@ -149,7 +149,7 @@ ul {
   border-radius: 8px;
 }
 .problemsec{
-  display: flex; /* Use flexbox to align items horizontally */
+  display: flex; 
     align-items: center;
     gap:10px;
 }
@@ -162,13 +162,13 @@ ul {
   border-style: solid;
 }
 .problempara {
-  width: 70%; /* Adjust width as needed */
-  margin-right: 20px; /* Space between text and image */
+  width: 70%; 
+  margin-right: 20px; 
 }
 .problemimg {
-  width: 30%; /* Adjust width as needed */
-  height: 10rem; /* Keep the aspect ratio */
-  border-radius: 5px; /* Optional: Add border radius for image */
+  width: 30%; 
+  height: 10rem; 
+  border-radius: 5px; 
   position: relative;
   bottom:3rem;
   
@@ -220,12 +220,12 @@ ul {
   
     margin: 0;
     padding: 0;
-    font-family: 'Fredoka', sans-serif;  /* Your existing font */
-    background-image: url('Reasons_Why_Beach_Clean-Ups_Important_1200x1200.webp'); /* Replace with your image path */
-    background-size: cover; /* Cover the entire background */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Prevent tiling */
-    color: #333; /* Default text color */
+    font-family: 'Fredoka', sans-serif;  
+    background-image: url('Reasons_Why_Beach_Clean-Ups_Important_1200x1200.webp'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: #333; 
 
    
 
@@ -249,11 +249,11 @@ ul {
 }
 
 .blog-img {
-  width: 40px; /* Set a fixed width for the profile picture */
-  height: 40px; /* Set a fixed height for the profile picture */
-  border-radius: 50%; /* Makes the image round */
-  object-fit: cover; /* Ensures the image covers the entire area */
-  margin: 10px 0; /* Space around the image */
+  width: 40px; 
+  height: 40px; 
+  border-radius: 50%; 
+  object-fit: cover; 
+  margin: 10px 0; 
 }
 
 
@@ -271,20 +271,20 @@ ul {
   border-radius: 8px;
 }
 
-/* Eco Shop Page Styles */
+
 /* Eco Shop Page Styles */
 .product-cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Display 3 cards in one row */
-  column-gap: 1rem; /* Space between columns */
-  row-gap: 1rem; /* Space between rows (optional) */
-  max-width: 1200px; /* Set a max width for the grid */
-  margin: 0 auto; /* Center the grid container */
-  padding: 0 1rem; /* Add some padding to the sides for smaller screens */
+  grid-template-columns: repeat(3, 1fr); 
+  column-gap: 1rem; 
+  row-gap: 1rem; 
+  max-width: 1200px; 
+  margin: 0 auto;
+  padding: 0 1rem; 
 }
 
 .card {
-  margin: 0; /* Remove margin from cards to control spacing */
+  margin: 0; 
   padding: 20px;
   background-color: #f4a261;
   border-radius: 8px;
@@ -297,7 +297,7 @@ ul {
 }
 
 .card-img {
-  width: 70%; /* Adjusted to fill the card width */
+  width: 70%; 
   height: 200px;
   border-radius: 9px;
   border: 2px solid rgba(0, 255, 255, 0.856);
@@ -335,28 +335,28 @@ ul {
   margin: 0;
   padding: 0;
   font-family: 'Fredoka', sans-serif;
-  background-image: url('pexels-anntarazevich-8152030.jpg'); /* Replace with your background image path */
-  background-size: cover; /* Cover the entire background */
-  background-position: center; /* Center the background */
-  background-repeat: no-repeat; /* Prevent tiling */
-  height: 100%; /* Full viewport height */
+  background-image: url('pexels-anntarazevich-8152030.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 100%; 
   display: flex;
   justify-content: center;
-  align-items: center; /* Center the login container */
+  align-items: center; 
  
 }
 
-/* Container with Blur Effect */
+
 .login-blur-container {
-  width: 350px; /* Width of the form container */
+  width: 350px; 
   padding: 30px;
-  background: rgba(255, 255, 255, 0.1); /* Transparent background */
+  background: rgba(255, 255, 255, 0.1); 
   border-radius: 15px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Soft shadow for depth */
-  backdrop-filter: blur(10px); /* Apply the blur effect */
-  border: 1px solid rgba(255, 255, 255, 0.3); /* Optional border for better visibility */
-  color: white; /* Text color */
-  text-align: center; /* Centered text */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); 
+  backdrop-filter: blur(10px); 
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+  color: white; 
+  text-align: center; 
   margin-top: 2rem;
   margin-bottom: 0px;
  
@@ -374,12 +374,12 @@ ul {
   margin-bottom: 15px;
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 5px;
-  background: rgba(255, 255, 255, 0.3); /* Semi-transparent input background */
-  color: white; /* White text color */
+  background: rgba(255, 255, 255, 0.3); 
+  color: white; 
 }
 
 .login-form input::placeholder {
-  color: rgba(255, 255, 255, 0.7); /* Lighter placeholder color */
+  color: rgba(255, 255, 255, 0.7); 
 }
 
 .submit-btn {
@@ -396,11 +396,11 @@ ul {
   background-color: #0a9396;
 }
 
-/* Responsive Styles */
+
 @media screen and (max-width: 480px) {
   .login-blur-container {
-      width: 90%; /* Adjust width for smaller screens */
-      padding: 20px; /* Reduce padding */
+      width: 90%; 
+      padding: 20px; 
   }
 }
 /* Leaderboard Styles */
@@ -456,39 +456,39 @@ ul {
   background-color: #cae9ff;
 }
 
-/* General Styles for Your Contribution Page */
+
 .contribution-main-content {
-  margin-left: 220px; /* Margin for the main content */
+  margin-left: 220px; 
   padding: 20px;
 }
 
-/* Hero Section */
+
 .contribution-hero-section {
-  background-image: url('cleanup2.webp'); /* Replace with your image path */
-  background-size: cover; /* Cover the entire background */
-  background-position: center; /* Center the background image */
-  background-repeat: no-repeat; /* Prevent tiling */
-  color: white; /* Text color */
-  height: 400px; /* Height of the hero section */
-  display: flex; /* Use flexbox for centering */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Shadow for better visibility */
+  background-image: url('cleanup2.webp');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  color: white; 
+  height: 400px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
 }
 
-/* Section Headers */
+
 .contribution-title, h2 {
-  color: #005f73; /* Deep water blue */
+  color: #005f73;
 }
 
-/* Contribution Lists */
+
 .cleanup-drives-list, .donations-list {
   list-style: none;
   padding: 0;
 }
 
 .cleanup-drives-list li, .donations-list li {
-  background-color: #cae9ff; /* Light background for list items */
+  background-color: #cae9ff; 
   padding: 10px;
   margin: 5px 0;
   border-radius: 5px;
@@ -502,12 +502,12 @@ ul {
 }
 
 .contribution-hero-section{
-  background-image: url('cleanup2.webp'); /* Replace with your image path */
-  background-size: cover; /* Cover the entire area */
-  background-position: center; /* Center the background image */
-  background-repeat: no-repeat; /* Prevent tiling */
-  padding: 20px; /* Add some padding */
-  border-radius: 10px; /* Optional: Round corners */
+  background-image: url('cleanup2.webp'); 
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  padding: 20px;
+  border-radius: 10px; 
   
 }
 
@@ -515,18 +515,18 @@ ul {
   color:rgba(19, 6, 143, 0.897);
   font-size: 5rem;
 }
-/* Image Gallery */
+
 .contribution-image-gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px; /* Space between images */
+  gap: 10px; 
 }
 
 .contribution-img {
-  width: 150px; /* Width of each image */
-  height: 100px; /* Height of each image */
-  border-radius: 5px; /* Rounded corners */
-  object-fit: cover; /* Ensures the image covers the area */
+  width: 150px; 
+  height: 100px; 
+  border-radius: 5px; 
+  object-fit: cover; 
 }
 
 /* Footer */
@@ -552,85 +552,85 @@ ul {
 #leaderboard-section {
   margin: 20px 0;
   padding: 15px;
-  background-color: #1c1c1c; /* Dark background for game-like feel */
+  background-color: #1c1c1c; 
   border-radius: 8px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); 
 }
 
 h2 {
-  color: #f4a261; /* Bright header color */
-  text-align: center; /* Centered title */
-  font-size: 2em; /* Larger font size */
-  margin-bottom: 20px; /* Space below the title */
+  color: #f4a261; 
+  text-align: center; 
+  font-size: 2em; 
+  margin-bottom: 20px; 
 }
 
 .leaderboard-container {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center the content */
+  align-items: center; 
 }
 
 .leaderboard-table {
-  width: 80%; /* Table width */
-  border-collapse: collapse; /* Collapse borders */
-  margin: 20px 0; /* Margin above and below the table */
-  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
-  border-radius: 8px; /* Rounded corners */
+  width: 80%; 
+  border-collapse: collapse; 
+  margin: 20px 0; 
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px; 
 }
 
 .leaderboard-table th, .leaderboard-table td {
-  border: 1px solid #005f73; /* Table border color */
-  padding: 12px; /* Padding inside table cells */
-  text-align: center; /* Center text */
-  transition: background-color 0.3s ease; /* Animation for background color */
-  color: #f4f4f4; /* Light text color */
+  border: 1px solid #005f73; 
+  padding: 12px; 
+  text-align: center; /
+  transition: background-color 0.3s ease; 
+  color: #f4f4f4; 
 }
 
 .leaderboard-table th {
-  background-color: #005f73; /* Header background color */
-  color: #ffffff; /* Header text color */
+  background-color: #005f73; 
+  color: #ffffff;
 }
 
 .leaderboard-table tbody tr {
-  transition: background-color 0.3s ease; /* Animation for row hover */
+  transition: background-color 0.3s ease; 
 }
 
 .leaderboard-table tbody tr:hover {
-  background-color: rgba(10, 147, 150, 0.3); /* Light background on row hover */
+  background-color: rgba(10, 147, 150, 0.3); 
 }
 
 .leaderboard-table tbody tr:nth-child(odd) {
-  background-color: rgba(255, 255, 255, 0.05); /* Slightly different color for odd rows */
+  background-color: rgba(255, 255, 255, 0.05); 
 }
 
 .current-user {
-  background-color: #f4a261; /* Background color for current user */
+  background-color: #f4a261; 
   padding: 15px;
   border-radius: 5px;
-  text-align: center; /* Center text */
-  margin-top: 20px; /* Space above the current user box */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow for the current user box */
+  text-align: center; 
+  margin-top: 20px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
 }
 
 .current-user p {
-  margin: 5px 0; /* Margin for current user info */
-  font-weight: bold; /* Make text bold */
-  font-size: 1.2em; /* Slightly larger font size */
+  margin: 5px 0; 
+  font-weight: bold; 
+  font-size: 1.2em; 
 }
 
 /* Points Section Styles */
 .points-section {
   text-align: center;
   padding: 20px;
-  background-color: #005f73; /* Deep water blue */
+  background-color: #005f73; 
   color: white;
   border-radius: 8px;
   margin: 20px auto;
-  width: 80%; /* Responsive width */
+  width: 80%; 
 }
 
 .prize-icon {
-  width: 40%; /* Size of the icon */
+  width: 40%; 
   height: 40%;
 }
 .points-earned{
@@ -640,36 +640,36 @@ h2 {
 /* Prizes Container Styles */
 .prizes-container {
   display: grid;
-  grid-template-columns: repeat(3,1fr); /* Responsive grid layout */
-  gap: 50px; /* Space between cards */
+  grid-template-columns: repeat(3,1fr); 
+  gap: 50px; 
   row-gap: 90px;
   padding: 20px;
 }
 
 /* Prize Card Styles */
 .prize-card {
-  background-color: #e9d8a6; /* Light background for cards */
+  background-color: #e9d8a6; 
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
   padding: 7px;
   text-align: center;
   height:30rem;
-  transition: transform 0.3s ease; /* Animation for hover effect */
+  transition: transform 0.3s ease; 
 }
 
 .prize-card:hover {
-  transform: translateY(-5px); /* Lift effect on hover */
+  transform: translateY(-5px); 
 }
 
 .prize-image {
-  width: 40%; /* Full width of the card */
-  height: 50%; /* Maintain aspect ratio */
-  border-radius: 5px; /* Rounded corners for images */
+  width: 40%; 
+  height: 50%; 
+  border-radius: 5px; 
 }
 
 /* Button Styles */
 .apply-button {
-  background-color: black; /* Button background color */
+  background-color: black; 
   width:6rem;
   height:2.5rem;
   color: white;
@@ -677,8 +677,8 @@ h2 {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-top: 10px; /* Space above button */
-  transition: background-color 0.3s ease; /* Animation for hover effect */
+  margin-top: 10px; 
+  transition: background-color 0.3s ease; 
 }
 .pointsreq{
   font-size: 20px;
@@ -686,7 +686,7 @@ h2 {
 }
 .apply-button:hover {
   background-color: white;
-  color:black; /* Darker shade on hover */
+  color:black; 
 }
 
 /* Table Section Styles */
@@ -694,79 +694,79 @@ h2 {
   text-align: center;
   margin: 40px auto;
   padding: 20px;
-  width: 80%; /* Width of the table container */
-  background-color: #f0f8ff; /* Light water-themed background */
+  width: 80%; 
+  background-color: #f0f8ff; 
   border-radius: 8px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
 }
 
 .table-title {
   font-size: 2em;
-  color: #005f73; /* Deep water blue */
-  margin-bottom: 20px; /* Space below the title */
+  color: #005f73; 
+  margin-bottom: 20px; 
   font-weight: bold;
 }
 
 /* Cleanup Drives Table Styles */
 .cleanup-drives-table {
   width: 100%;
-  border-collapse: collapse; /* Collapsed borders */
+  border-collapse: collapse; 
   overflow: hidden;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow to the table */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
 
 .cleanup-drives-table th, .cleanup-drives-table td {
   padding: 15px;
   text-align: center;
-  border-bottom: 1px solid #ddd; /* Border for table cells */
-  transition: background-color 0.3s ease; /* Smooth transition on hover */
+  border-bottom: 1px solid #ddd; 
+  transition: background-color 0.3s ease; 
 }
 
 .cleanup-drives-table th {
-  background-color: #005f73; /* Deep blue header background */
-  color: #ffffff; /* White text color */
+  background-color: #005f73; 
+  color: #ffffff;
   text-transform: uppercase;
-  letter-spacing: 1px; /* Spacing between letters */
-  font-weight: 600; /* Bold font for headers */
+  letter-spacing: 1px; 
+  font-weight: 600; 
 }
 
 .cleanup-drives-table tbody tr:nth-child(odd) {
-  background-color: #cae9ff; /* Light blue background for odd rows */
+  background-color: #cae9ff; 
 }
 
 .cleanup-drives-table tbody tr:nth-child(even) {
-  background-color: #94d2bd; /* Light green background for even rows */
+  background-color: #94d2bd; 
 }
 
 .cleanup-drives-table tbody tr:hover {
-  background-color: rgba(10, 147, 150, 0.2); /* Change background on row hover */
+  background-color: rgba(10, 147, 150, 0.2); 
 }
 
 .cleanup-drives-table td {
-  color: #333; /* Text color for cells */
+  color: #333; 
   font-size: 1em;
 }
 
-/* Register Button Styles */
+
 .register-btn {
   padding: 10px 15px;
-  background-color: #005f73; /* Button background color */
+  background-color: #005f73; 
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+  transition: background-color 0.3s ease, transform 0.2s ease; 
 }
 
 .register-btn:hover {
-  background-color: #0a9396; /* Lighter shade on hover */
-  transform: translateY(-2px); /* Slight lift effect */
+  background-color: #0a9396; 
+  transform: translateY(-2px); 
 }
 
 .register-btn:active {
-  background-color: #00363a; /* Darker shade when clicked */
-  transform: translateY(0); /* No lift on click */
+  background-color: #00363a; 
+  transform: translateY(0); 
 }
 
 /* Footer Styles */
@@ -786,4 +786,65 @@ h2 {
 
 .footer a:hover {
   color: #e9d8a6;
+}
+
+.ngo-item{
+  margin-top: 2rem;
+  border: 4px solid rgba(12, 224, 231, 0.795);
+  border-radius: 15px;
+  width:32rem;
+  background-color: rgb(117, 236, 117);
+}
+
+.ngo-item h2{
+  text-align: left;
+  color: #005f73;
+  padding-left:20px;
+}
+.ngo-item img{
+  width:510px;
+  height:200px;
+  border-top:2px black solid;
+  border-radius: 5px;
+}
+
+.ngo-item:hover{
+  box-shadow: 2px 2px 9px 7px #333;
+}
+
+.ngobg{
+  
+    background-image: url('partnership.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    
+
+}
+
+.ngo-item button{
+  padding: 12px;
+  margin: 8px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  border-radius: 7px;
+  border: none;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 15px;
+}
+
+#readmore{
+  background-color: #005f73;
+}
+
+#readmore:hover{
+  background-color: white;
+  color: black;
+}
+
+.ngo-item button:hover{
+  background-color: white;
+  color: black;
 }
